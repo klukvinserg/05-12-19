@@ -1,0 +1,100 @@
+/*.no1 {
+    background-color: red;
+    animation-delay: 2s;
+}
+
+.no2 {
+    background-color: blue;
+    animation-delay: 4s;
+}
+
+.no3 {
+    background-color: black;
+    animation-delay: 6s;  
+}
+
+.no4 {
+    background-color: yellow;
+    animation-delay: 8s;
+}
+
+@keyframes animatiom {
+    25% {
+        transform: translateX(500px); 
+    }
+    50% {
+        transform: translate(500px, 500px); 
+    }
+
+    75% {
+    transform: translate(0px, 500px); 
+    }
+
+    100% {
+        transform: translateY(0px, 0px);
+    }
+ }
+
+ div {
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     animation: animatiom 8s infinite;
+ } */
+
+
+ div {
+     width: 100px;
+     height: 100px;
+     position: absolute;
+     transform: translate(50px, 300px)  rotate(45deg);
+     animation: animatiom 10s infinite;
+    
+     
+}
+
+.no5 {
+    background-color: red;
+    animation-delay: 2s;
+}
+
+.no6 {
+    background-color: blue;
+    animation-delay: 4s;
+}
+
+.no7 {
+    background-color: black;
+    animation-delay: 6s;  
+}
+
+.no8 {
+    background-color: yellow;
+    animation-delay: 8s;
+}
+
+.no9 {
+    background-color: rgb(0, 238, 255);
+    animation-delay: 10s;
+}
+
+@keyframes animatiom {
+    20% {
+        transform: translate(250px, 100px) scaleY(1.5); 
+    }
+    40% {
+        transform: translate(500px, 100px) scaleY(1.5); 
+    }
+
+    60% {
+    transform: translate(750px, 300px) rotate(45deg); 
+    }
+
+    80% {
+        transform: translate(350px, 600px) scaleX(1.5);
+    }
+
+    100% {
+        transform: translate(50px, 300px);
+    }
+ }
